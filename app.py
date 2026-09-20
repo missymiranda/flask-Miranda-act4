@@ -48,7 +48,7 @@ def calculate_grade():
  
     if score is None: 
         return jsonify({ 
-            "error": "Please provide a score." 
+            "score": "100" 
         }), 400 
  
     if score >= 90: 
